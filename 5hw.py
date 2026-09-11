@@ -3,3 +3,9 @@
 #input values to take are role and age
 #Example : Eligible : True
 
+role = input ("Enter role:")
+age = int(input("Enter age: "))
+
+eligible = (role == "student") and (age <21)
+
+print("Eligable", eligible)
